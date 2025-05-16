@@ -1525,7 +1525,7 @@ option{
         display: none;
     }
 
-     .promotion-section {
+    .promotion-section {
         flex-direction: column;
         height: auto;
     }
