@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Travel Website</title>
+</head>
+<body>
+    <header >
+       <nav class="navbar">
+            <div class="logo">
+                <img src="images/logo (1).png" alt="logo">
+            </div>
+
+            <div class="nav-links">   
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <div class="dropdown">
+                    <a href="#">Services <i class="fa-solid fa-caret-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="#">Honeymoon Packages</a>
+                        <a href="#">Tour Packages</a>
+                        <a href="#">Musical Events</a>
+                        <a href="#">Build Package</a>
+                    </div>
+                </div>
+
+                <a href="#">Upcoming Packages</a>
+
+            </div>
+
+            <div class="contact-btn">
+                <a href="#">Get In Touch</a>
+            </div>
+        </nav>  
+        
+        <!-- Hero -->
+        <div class="hero-content">
+            <h1>No matter where<br> you’re going to, we’ll <br> take you there</h1>
+
+            <div class="search-box">
+                <select name="Country" id="Country">
+                    <option hidden selected>Where To go? <i class="fa-solid fa-caret-down"></i></option>
+                    <option value="Bangladesh">Bangladesh</option>
+
+                    <option value="India">India</option>
+
+                    <option value="Canada">Canada</option> 
+                </select>
+
+                <select name="travel" id="travel">
+                    <option hidden selected>Travel type <i class="fa-solid fa-caret-down"></i></option>
+                    <option value="honeymoon">Honeymoon</option>
+                    <option value="family">Family</option>
+                    <option value="adventure">Adventure</option>
+                </select>
+
+                <select name="time" id="time">
+                    <option hidden selected>Duration <i class="fa-solid fa-caret-down"></i></option>
+                    <option value="1-3">1 - 3 Days</option>
+                    <option value="4-7">4 - 7 Days</option>
+                    <option value="8-14">8 - 14 Days</option>
+                    <option value="15+">15+ Days</option> 
+                </select>
+
+                <button class="submit">Submit</button>
+            </div>
+
+            <div class="booking-info">
+                <div class="image-logo">
+                    <img src="images/Group 81.png" alt="">
+                </div>
+
+                <p>2,500 people booked Tomorrowland Event in last 24 hours</p>
+            </div>
+        </div>
+    </header>
+
+    <section class="company-image">
+         <div class="company-logo">
+            <img src="images/image 909.png" alt="logo">
+
+            <img src="images/Mask group (2).png" alt="logo">
+
+            <img src="images/Mask group (1).png" alt="logo">
+
+            <img src="images//Mask group.png" alt="logo">
+
+            <img src="images/image 912.png" alt="logo">
+        </div>
+    </section>
+
+   <!--Category section-->
+    <section class="category" >
+        <div class="text">
+                <h3>CATEGORY</h3>
+                <h2>We Offer Best Services</h2>
+            </div>
+
+            <div class="category-card">
+                <div class="category-images">
+                  <img src="images/tour-guide 1.png" alt="">
+                  <h2>Guided Tours</h2>
+                  <h3>sunt qui repellat saepe <br>quo velit aperiam id <br> aliquam placeat.</h3>
+                </div>
+
+                <div class="category-images1">
+                  <img src="images/travelling 1.png" alt="">
+                  <h2>Best Flights Options</h2>
+                  <h3>sunt qui repellat saepe <br>quo velit aperiam id <br> aliquam placeat.</h3>
+                </div>
+
+                <div class="category-images">
+                  <img src="images/tour-guide 1.png" alt="">
+                  <h2>Religious tour</h2>
+                  <h3>sunt qui repellat saepe <br>quo velit aperiam id <br> aliquam placeat.</h3>
+                </div>
+
+                <div class="category-images">
+                  <img src="images/medical-team 1.png" alt="">
+                  <h2>Medical insurance</h2>
+                  <h3>sunt qui repellat saepe <br>quo velit aperiam id <br> aliquam placeat.</h3>
+                </div>
+                
+            </div>
+    </section>
+
+   <!-- Romantic section -->
+    <section class="romantic-section">
+        <div class="honeymoon">
+            <div class="honeymoon-image">
+
+                <img src="images/image 50.png" alt="main couple" class="main-images">
+
+                <img src="images/Ellipse 1.png" alt="Circle 1" class="circle-img img1">
+                <img src="images/Ellipse 2.png" alt="Circle 2" class="circle-img img2">
+                <img src="images/Ellipse 3.png" alt="Circle 3" class="circle-img img3">
+
+
+            </div>
+        </div>
+
+        <div class="honeymoon-right">
+            <h3>Honeymoon Special</h3>
+            <h2>Our Romantic Tropical Destinations</h2>
+            <p>
+             Experience the most romantic destinations with our carefully crafted
+             honeymoon packages. Enjoy beautiful beaches, luxury resorts, and
+             unforgettable memories.
+            </p>
+
+            <button class="btn">
+                View Packages
+            </button>
+        </div>
+    </section>
+
+    <!--Resort section-->
+    <section class="resort-section">
+        <div class="resort-left">
+            <p class="tag">Fast & Easy</p>
+            <h2>Get Your Favourite<br>Resort Bookings</h2>
+
+            <div class="features">
+                <div class="icon1">
+                    <i class="fa-regular fa-square"></i>
+                </div>
+                <div class="text-content">
+                    <h4>Choose Destination</h4>
+                    <p>Lorem ipsum dolor sit amet, <br>consectetur adipiscing elit.</p>
+                </div>
+            </div>
+
+            <div class="features">
+                <div class="icon2">
+                    <i class="fa-solid fa-check"></i>
+                </div>
+                <div class="text-content">
+                    <h4>Check Availability</h4>
+                    <p>Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit.</p>
+                </div>
+            </div>
+
+            <div class="features">
+                <div class="icon3">
+                    <i class="fa-solid fa-car"></i>
+                </div>
+                <div class="text-content">
+                    <h4>Let's Go</h4>
+                    <p>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="resort-right">
+            <div class="resort-card">
+                <img src="images/Rectangle 17.png" alt="">
+
+                <div class="card-info">
+                    <h3>Trip To Penang</h3>
+                    <p>14–29 June | by JR Martin</p>
+
+                    <div class="icon-card">
+                        <i class="fa-solid fa-leaf"></i>
+                        <i class="fa-regular fa-window-restore"></i>
+                        <i class="fa-solid fa-arrow-pointer"></i>
+                    </div>
+
+                    <div class="ongoing">
+                        <img src="images/Mask Group (4).png" alt="">
+
+                        <div>
+                            <span>Ongoing </span>
+                            <p>Trip to Malaysia <br>
+                            40% complete</p>
+                        </div>
+                    </div>
+                    <p class="interested">60 people are interested</p>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+    <!--Statue Section-->
+    <section class="statue">
+        <div class="statue-text">
+            <h2>Let's Make Your <br>Next Holiday Amazing</h2>
+        </div>
+    </section>
+
+    <!--Container Section-->
+    <section class="container-section">
+        <div class="container">
+            <div class="left">
+                <h4>PROMOTION</h4>
+                <h1>We Provide You Best<br>Europe Sightseeing Tours</h1>
+                <p>Et labore harum non nobis ipsum eum molestias mollitia et corporis <br> praesentium a laudantium internos. Non quis eius quo eligendi corrupti <br>
+                et fugiat nulla qui soluta recusandae in maxime quasi aut ducimus <br> illum aut optio quibusdam!</p>
+
+                <button>View Packages</button>
+            </div>
+
+            <div class="cards-right-group">
+                <div class="contain-cards">
+
+                    <div class="card">
+                       <img src="images/Rectangle 19295.png" alt="">
+                       <div class="price">$700</div>
+                    </div>
+
+                    <div class="card">
+                       <img src="images/Rectangle 19296.png" alt="">
+                       <div class="price">$800</div>
+                    </div>
+
+                    <div class="card">
+                         <img src="images/Rectangle 19297.png" alt="">
+                        <div class="price">$500</div>
+                    </div>
+
+                    <div class="card">
+                        <img src="images/Rectangle 19298.png" alt="">
+                       <div class="price">$400</div>
+                    </div>
+ 
+                </div>
+
+                <div class="card-right">
+                    <img src="images/image 50 (1).png" alt="Eiffel Tower">
+                    <h2>Breath Taking Views</h2>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!--promotion Section-->
+    <section class="promotion-section">
+        <div class="promotion-box promotion1">
+            <div class="promotion-content">
+                <h3>Promotion</h3>
+                <h2>Explore Nature</h2>
+                <button>View Packages</button>
+            </div>
+        </div>
+
+        <div class="promotion-box promotion2">
+            <div class="promotion-content">
+            <h3>Promotion</h3>
+            <h2>Explore Cities</h2>
+            <button>View Packages</button>
+        </div>
+        </div>
+    </section>
+
+    <!--Trendy Section-->
+    <section class="trendy-section">
+        <div class="title">
+            <p>TRENDY</p>
+            <h2>Our Trending Tour <br> Packages</h2>
+        </div>
+
+        <div class="trendy-cards">
+            <div class="trendy-card-info">
+                <img src="images/Rectangle 19305.png" alt="">
+                <div class="trendy-info">
+                    <div class="meta">
+                        <span>🗓️ 8 Days</span>
+                        <span>👤 25 People Going</span>
+                    </div>
+                    <div class="stars">
+                        <h2>Switzerland</h2>
+                        <span>⭐⭐⭐⭐⭐</span>
+                    </div>
+                    
+                    <p><i class="fa-solid fa-location-dot"></i> Europe</p>
+
+                    <div class="trendy-price">
+                        <span>$1000</span>
+                        <span><del>$1200</del></span>
+                    </div>
+                    <p class="description">Nam exercitationem commodi et ducimus quia in dolore animi sit mollitia amet id quod eligendi.</p>
+
+                    <button>Explore Now</button>
+                </div>
+            </div>
+
+             <div class="trendy-card-info">
+                <img src="images/Rectangle 19305 (1).png" alt="">
+                <div class="trendy-info">
+                    <div class="meta">
+                        <span>🗓️ 8 Days</span>
+                        <span>👤 25 People Going</span>
+                    </div>
+                    <div class="stars">
+                        <h2>Switzerland</h2>
+                        <span>⭐⭐⭐⭐⭐</span>
+                    </div>
+                    <p><i class="fa-solid fa-location-dot"></i> Europe</p>
+
+                    <div class="trendy-price">
+                        <span>$1000 </span>
+                        <span><del>$1200</del></span>
+                    </div>
+
+                    
+                    <p class="description">Nam exercitationem commodi et ducimus quia in dolore animi sit mollitia amet id quod eligendi.</p>
+
+                    <button>Explore Now</button>
+                </div>
+            </div>
+
+             <div class="trendy-card-info">
+                <img src="images/Rectangle 19305 (2).png" alt="">
+                <div class="trendy-info">
+                    <div class="meta">
+                        <span>🗓️ 8 Days</span>
+                        <span>👤 25 People Going</span>
+                    </div>
+                     <div class="stars">
+                        <h2>Switzerland</h2>
+                        <span>⭐⭐⭐⭐⭐</span>
+                    </div>
+                    <p><i class="fa-solid fa-location-dot"></i> Europe</p>
+
+                    <div class="trendy-price">
+                        <span>$1000</span>
+                        <span><del>$1200</del></span>
+                    </div>
+
+                    <p class="description">Nam exercitationem commodi et ducimus quia in dolore animi sit mollitia amet id quod eligendi.</p>
+
+                    <button>Explore Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Designer Section-->
+    <section class="designer-section">
+       <div class="designer-parent">
+          <div class="designer-text">
+            <p>PROMOTION</p>
+            <h2>See What Our Clients Say <br>
+            About Us</h2>
+          </div>
+
+          <div class="designer-img-text">
+            <img src="images/Ellipse 624.png" alt="">
+
+            <p class="txt2">Vel officiis dolor ea illo aut eligendi ullam non laudantium <br> magnam et recusandae molestiae sit iure unde aut <br> voluptate quaerat. Id sunt provident quo possimus<br> impedit vel doloremque obcaecati qui ullam consectetur <br> et ipsum omnis.</p>
+            <h3>Christine Beckam - Designer</h3>
+            
+         </div>
+       </div>
+    </section>
+
+
+    <!--Footer section-->
+
+   <footer class="main-footer">
+    <div class="footer-content">
+        <div class="footer-logo">
+            <h4>Travel</h4>
+            <img src="images/logo (1).png" alt="logo">
+            <p>Travel Hepls companies <br> manage payments easily.</p>
+            <div class="social-link">
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+
+        <div class="footer-links">
+            <h3>Company</h3>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">careers
+                    </a></li>
+                <li><a href="#">Blog
+                    </a></li>
+                <li><a href="#">Pricing
+                    </a></li>
+            </ul>
+        </div>
+
+
+        <div class="footer-links">
+            <h3>Destinations</h3>
+            <ul>
+                <li><a href="#">Maldives</a></li>
+                <li><a href="#">Los Angels
+                    </a></li>
+                <li><a href="#">Torronto
+                    </a></li>
+                <li><a href="#">Malaysia
+                    </a></li>
+            </ul>
+        </div>
+
+        <div class="footer-contact">
+            <h3>Join Our Newsletter</h3>
+        
+            <div class="newsletter">
+                <input type="email" placeholder="Enter your mail"> 
+                <button type="submit">Subscribe</button>
+            </div>
+            <p>* Will send you weekly updates for your better tour packages.</p>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>Copyright &COPY; Xpro 2022. All Rights Reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>
